@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import FieldsModal from './component/FieldsModal';
-import { List, ListItem, Typography, Toolbar, Button, Card, Paper, CardHeader, CardContent } from '@material-ui/core';
+import { List, ListItem, Typography, Toolbar, Button, Card, CardHeader, CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core';
 
 const useStyle = makeStyles({

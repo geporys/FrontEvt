@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Dialog from '@material-ui/core/Dialog';
-import { DialogContent, DialogActions, Typography, Button, TextField, DialogTitle } from '@material-ui/core';
+import { DialogContent, DialogActions, Button, TextField, DialogTitle } from '@material-ui/core';
 
 const FieldsModal = ({addNewNote, open = false, onClose}) => {
   const [title, setTitle] = useState();
